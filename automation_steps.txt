@@ -1,0 +1,11 @@
+
+# 1. How to show the scheduled automation job:
+# (This lists all active cron jobs for the user)
+
+crontab -l
+
+
+# 2. Example Output:
+# (This is what will appear when I run the command)
+
+#0 9 * * * /Users/perin/Desktop/QA3-Newsletter/venv/bin/python3 /Users/perin/Desktop/QA3-Newsletter/newsletter.py

@@ -1,0 +1,11 @@
+# .gitignore file
+# Ignore the virtual environment folder
+venv/
+
+# Ignore the secret keys file
+.env
+
+# Ignore system files
+__pycache__/
+*.pyc
+.DS_Store

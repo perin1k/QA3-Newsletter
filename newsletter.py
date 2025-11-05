@@ -120,7 +120,7 @@ def send_email(subject, html_content):
         print(f"Error sending email: {e}")
 
 # --- 5. MAIN FUNCTION (Ties everything together) ---
-# This is the main workflow you'll demonstrate
+        
 
 def main():
     """

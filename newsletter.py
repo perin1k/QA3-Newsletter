@@ -25,7 +25,7 @@ RECEIVER_EMAIL = os.getenv("RECEIVER_EMAIL")
 client = OpenAI(api_key=OPENAI_API_KEY)
 
 # --- 2. STEP 1: FETCH THE ARTICLES ---
-# This function matches the "Fetching Data" requirement
+
 
 def fetch_articles(topic, num_articles=3):
     """
@@ -54,7 +54,7 @@ def fetch_articles(topic, num_articles=3):
         return []
 
 # --- 3. STEP 2: SUMMARIZE THE ARTICLES ---
-# This function matches the "Summarizing Data" requirement
+
 
 def summarize_article(article_content):
     """
@@ -82,7 +82,7 @@ def summarize_article(article_content):
         return "Could not summarize this article."
 
 # --- 4. STEP 3: SEND THE EMAIL ---
-# This function matches the "Email Formatting and Sending" requirement
+
 
 def send_email(subject, html_content):
     """
